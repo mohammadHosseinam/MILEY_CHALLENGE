@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'Yekan';
+	src: url("../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.eot"); /* IE9 Compat Modes */
+	src: url('../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.eot') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+	url('../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+	url("../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.otf") format('opentype'), /* Open Type Font */	
+	url("../fonts/Yekan-Font-master/Yekan-Font-master/Yekan.ttf") format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+.fm-yekan{
+    font-family: 'Yekan';
+}
+.adress-and-info{
+    height: 2.5rem;
+}
+.free-style-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+}
+.search-input::placeholder{
+    color: #777;
+}
+.main-part{
+    border-bottom: 1px solid #af969a;
+}
+.search-box{
+
+}
+.width-33{
+    width: 33.333%;
+}
+.desctop-header-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.slider-part{
+    width: 100%;
+    height: 480px;
+    background-image: url("../images/sliderPart.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.shop-name-fa span::after{
+    display: block;
+    content: " ";
+    width: 60%;
+    height: 1px;
+    background-color: rgb(227, 209, 207);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.leter-space{
+    letter-spacing: 5.1px;  
+}
+.leter-space-4{
+    letter-spacing: 3.8px;
+}
+.collections-section{
+    background-image: url("../images/collection-section-bg.png") , linear-gradient(#f6f0ef,#f6f0ef);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.collection{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 216px;
+}
+.ring-collection{
+    background-image: url("../images/ring-collection.png");
+
+}
+.Necklace-and-small-chest-collection{
+    background-image: url("../images/neckless-collection.png");
+}
+.text-collection-eng-light{
+    color: #DAFDFF;
+}
+.Bracelet-collection{
+    background-image: url("../images/barclate.png");
+}
+.men-collection{
+    background-image: url("../images/men-collection.png");
+}
+.Earrings-collection{
+    background-image: url("../images/Earrings-collection.png");
+}
+.kids-collection{
+    background-image: url("../images/kids-collection.png");
+}
+.collections-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.logo-in-newest::before,.logo-in-newest::after{
+    display: block;
+    content: " ";
+    flex-grow: 1;
+    background-color: #e3d1cd;
+    height: 1px;
+    margin: 0 .5rem;
+}
+.product-cart-img{
+    width: 280px;
+    height: 350px;
+    background-image: url("../images/cart-img-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.like-cart{
+    display: none;
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.product-carts{
+    width: 80%;
+    margin: 0 auto;
+}
+.most-pop{
+    background-image: url("../images/most-pop-bg.png") , linear-gradient(#f6f0ef,#f6f0ef);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.most-pop-cart{
+    width: 313px;
+    height: 350px;
+}
+.pop-necklet{
+    background-image: url("../images/pops-necklace.png");
+}
+.pop-rings{
+    background-image: url("../images/pop-rings.png");
+}
+.fontesy-sets{
+    background-image: url("../images/fontesy-sets.png");
+}
+.dimond-necleces{
+    background-image: url("../images/dimond-necklece.png");
+    height: 478px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dimond-rings{
+    background-image: url("../images/dimond-rings.png");
+    height: 478px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-logo{
+    background-image: url("../images/footer-logo-bg.png") , linear-gradient(#E3D1CD,#E3D1CD);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+}
+.main-footer{
+    background-image: url("../images/main-footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-instagram-bg{
+    background-color: #E3D1CD2B;
+    width: 50px;
+    height: 50px;
+}
+.text-bg-gray-1{
+    background: rgba(125, 125, 125, 0.15);
+}
+.text-gray-500{
+    color: #777;
+}
+.shadow1 {
+    box-shadow: 0 0px 1px 1px #e6e6e6;
+}
+.card-image-sample{
+    background-image: url("../images/card-sample-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 206px;
+    width: 206px;
+}
+.shadow2 {
+    box-shadow: 0 0 4px rgba(0,0,0,0.12);
+}
+.text-black2 {
+    color: #242424;
+}
+.border-bottom-dashe {
+    border-bottom: 1px dashed #bbb;
+}
+.height-83{
+    height: 83px;
+}
+.more-product span::after{
+    display: block;
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background-color: #053134;
+    margin-top: 16px;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+.persent-input{
+    border: 2px solid rgba(0,0,0,0.1);
+    padding: .5rem;
+}
+.persent-input::placeholder{
+    color: #b7b7b7;
+    font-family: "yekan";
+    font-size: 1rem;
+}
+.pay-cart{
+    border: 3px solid rgba(0,0,0,0.075);
+}
